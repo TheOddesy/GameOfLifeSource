@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{D624680E-3311-46F2-B591-4F4ECC27FAA0}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GameOfLifeWASM/Program.cs">
+    <Files>
+      <File FileName="GameOfLifeWASM/Shared/MainLayout.razor" Line="3" Column="3" />
+      <File FileName="GameOfLifeWASM/Pages/Index.razor" Line="38" Column="5" />
+      <File FileName="GameOfLifeWASM/Pages/World.cs" Line="5" Column="1" />
+      <File FileName="GameOfLifeWASM/wwwroot/css/app.css" Line="68" Column="16" />
+      <File FileName="GameOfLifeWASM/Program.cs" Line="10" Column="28" />
+      <File FileName="GameOfLifeWASM/_Imports.razor" Line="7" Column="27" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GameOfLifeWASM" expanded="True">
+            <Node name="GameOfLifeWASM" expanded="True">
+              <Node name="Pages" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Shared" expanded="True" />
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True">
+                  <Node name="bootstrap" expanded="True" />
+                  <Node name="open-iconic" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.GameOfLifeWASM PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

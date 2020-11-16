@@ -1,0 +1,105 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bakground: #404E5C;
+    --text: #62BEC1;
+    --buttonText: #F7FFF7;
+    --buttonBakground: rgba(26,83,92,1.0);
+    --cellLive: #1A535C;
+    --cellDead: #F7FFF7;
+    --cellHover: #4ECDC4;
+}
+
+body, html {
+    height: 100%;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--bakground);
+}
+
+header {
+    height: auto;
+    width: auto;
+}
+
+h1, p {
+    padding-left: 20px;
+    color: var(--text);
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+a:visited {
+    color: var(--text);
+}
+
+
+#controls {
+    color: green;
+    z-index: 2;
+}
+
+button {
+    color: var(--buttonText);
+    background-color: var(--buttonBakground);
+    border-radius: 15%;
+    padding: 1px 1px;
+}
+
+#worldMap {
+    align-content: center;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: auto;
+}
+
+.row {
+    display: flex;
+    height: 20px;
+    justify-content: start;
+    width: 90%;
+}
+
+.cell {
+    max-width: 20px;
+    max-height: 20px;
+    min-width: 20px;
+    min-height: 20px;
+    margin: auto;
+    border: 1px solid;
+    margin: 0;
+    outline: none;
+    border-radius: 15%;
+    z-index: 1;
+    background-color: var(--cellDead);
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+}
+
+    .cell.selectable {
+        cursor: cell;
+    }
+
+        .cell.selectable:hover {
+            background: var(--cellHover);
+        }
+
+    .cell.alive {
+        background: var(--cellLive);
+    }
+
+    #blazor-error-ui {
+        display:none;
+    }

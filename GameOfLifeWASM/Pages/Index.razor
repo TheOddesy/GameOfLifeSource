@@ -1,0 +1,83 @@
+﻿@page "/"
+<header>
+    <h1>Conway's Game of Life</h1>
+    <p>If you wish to know more about the game, press <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank"> here </a></p>
+    <br />
+</header>
+
+
+@if (null != this.World)
+{
+    <div id="controls">
+        <p>
+            <button @onclick="TogglePause">@(this.World.Paused ? "Play" : "Pause")</button>
+            <button @onclick="StepOnce">Step</button>
+            <button @onclick="Reset">Reset</button>
+            <button @onclick="EmptyPage">Empty Page</button>
+        </p>
+        <p>Generation: @this.World.Generation &nbsp;&nbsp;&nbsp;&nbsp; Population: @this.World.Population</p>
+    </div>
+
+    <div id="worldMap">
+        @for (var y = 0; y != this.World.Cells.GetLength(1); ++y)
+        {
+            <div class="row">
+                @for (var x = 0; x != this.World.Cells.GetLength(0); ++x)
+                {
+                    var x1 = x; var y1 = y;
+
+                    <div @onclick="(e => SetCellAlive(x1,y1))"
+                         class="cell @(this.World.Paused ? "selectable" : "") @(this.World.Cells[x, y] ? "alive" : "")">&nbsp;</div>
+                }
+            </div>
+        }
+    </div>
+}
+@code
+{
+    [Inject]
+    public World World { get; set; }
+
+    protected override void OnInitialized()
+    {
+        World.OnChangeAsync += Refresh;
+    }
+
+    private void Reset(MouseEventArgs e)
+    {
+        this.World.Reset();
+    }
+
+    private void EmptyPage(MouseEventArgs e)
+    {
+        if (this.World.Paused)
+            this.World.EmptyPage();
+    }
+
+    private void StepOnce(MouseEventArgs e)
+    {
+        if (this.World.Paused)
+            this.World.StepOnce();
+    }
+
+    private void TogglePause(MouseEventArgs e)
+    {
+        this.World.TogglePause();
+    }
+
+    private void SetCellAlive(int x, int y)
+    {
+        if (this.World.Paused)
+            this.World.Cells[x, y] = true;
+    }
+
+    private async Task Refresh()
+    {
+        await InvokeAsync(StateHasChanged);
+    }
+
+    public void Dispose()
+    {
+        World.OnChangeAsync -= Refresh;
+    }
+}

@@ -1,0 +1,154 @@
+{
+  "FilesToCompress": [
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/S8PuxyDy-pOdrLFAOelzoNdYujrQTe_V0UlpSfMAKSY=.hash",
+      "Source": "\/Users\/nicolassalas\/Documents\/Programming\/VisualStudio\/GameOfLifeWASM\/GameOfLifeWASM\/obj\/Release\/netstandard2.1\/blazor\/linker\/GameOfLifeWASM.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/GameOfLifeWASM.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/CX4yA8WtRJO51fw8A6GR7eQO_ore1oZkhgwJfAF3qc4=.hash",
+      "Source": "\/Users\/nicolassalas\/Documents\/Programming\/VisualStudio\/GameOfLifeWASM\/GameOfLifeWASM\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.AspNetCore.Components.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Components.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/tDwkUBddOmGZz9i_v85oTzlp8LlmMXZDX3ALCGoQo2o=.hash",
+      "Source": "\/Users\/nicolassalas\/Documents\/Programming\/VisualStudio\/GameOfLifeWASM\/GameOfLifeWASM\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.AspNetCore.Components.Web.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Components.Web.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/dh69mXOdEqVPWMiC7WYoABq2uiFovUxQ9RlhR42xHvM=.hash",
+      "Source": "\/Users\/nicolassalas\/Documents\/Programming\/VisualStudio\/GameOfLifeWASM\/GameOfLifeWASM\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.AspNetCore.Components.WebAssembly.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Components.WebAssembly.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/jzHgXWAvWMkKIGFjZoT84tbe72E_H7CvTr-Dryh4QPs=.hash",
+      "Source": "\/Users\/nicolassalas\/Documents\/Programming\/VisualStudio\/GameOfLifeWASM\/GameOfLifeWASM\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.Bcl.AsyncInterfaces.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Bcl.AsyncInterfaces.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/raUZIENbNAReEodocmu9TUI7HIsZqug9F3laZL0XpeQ=.hash",
+      "Source": "\/Users\/nicolassalas\/Documents\/Programming\/VisualStudio\/GameOfLifeWASM\/GameOfLifeWASM\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.Extensions.Configuration.Abstractions.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Configuration.Abstractions.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/kyavpzeJRFyOKLsaz_mOzmwow3AcZU1GZQzRbf254-o=.hash",
+      "Source": "\/Users\/nicolassalas\/Documents\/Programming\/VisualStudio\/GameOfLifeWASM\/GameOfLifeWASM\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.Extensions.Configuration.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Configuration.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/YmU6Q7I1c1_5Tu5etAr2ZB1hhhZVV66FOXNJkzrzvGw=.hash",
+      "Source": "\/Users\/nicolassalas\/Documents\/Programming\/VisualStudio\/GameOfLifeWASM\/GameOfLifeWASM\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.Extensions.Configuration.Json.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Configuration.Json.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/nd3j-e_7VTV1vJCxOknGuLPetM4-5jNnxgPFxmwktA4=.hash",
+      "Source": "\/Users\/nicolassalas\/Documents\/Programming\/VisualStudio\/GameOfLifeWASM\/GameOfLifeWASM\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/ES-gFuKH1TcyLTI98GvtNHvRadEZgckksjnq2xd7zrI=.hash",
+      "Source": "\/Users\/nicolassalas\/Documents\/Programming\/VisualStudio\/GameOfLifeWASM\/GameOfLifeWASM\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.Extensions.DependencyInjection.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.DependencyInjection.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/LnOCo90-5Ak_mlvSPY5JN5Ye_GmJXBsudYEiZZUa-R0=.hash",
+      "Source": "\/Users\/nicolassalas\/Documents\/Programming\/VisualStudio\/GameOfLifeWASM\/GameOfLifeWASM\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.Extensions.Logging.Abstractions.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/waGflQSja13yy1g3UCYmDRh4G2KPNbhTem2R3do_Zxw=.hash",
+      "Source": "\/Users\/nicolassalas\/Documents\/Programming\/VisualStudio\/GameOfLifeWASM\/GameOfLifeWASM\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.Extensions.Logging.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Logging.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/1Wggn32uBZdD8b-we-WUn4nm3NuHv8aSjK6DmIT8mBs=.hash",
+      "Source": "\/Users\/nicolassalas\/Documents\/Programming\/VisualStudio\/GameOfLifeWASM\/GameOfLifeWASM\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.Extensions.Options.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Options.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/ROgm8kUYGUabNTf6OnMicDDqVLk0UYruQwNHeXZwjB4=.hash",
+      "Source": "\/Users\/nicolassalas\/Documents\/Programming\/VisualStudio\/GameOfLifeWASM\/GameOfLifeWASM\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.Extensions.Primitives.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Primitives.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/3cbvJEo8k8VJVQwyEZWWQ6yGRFQW8-219DaOnmsX3e4=.hash",
+      "Source": "\/Users\/nicolassalas\/Documents\/Programming\/VisualStudio\/GameOfLifeWASM\/GameOfLifeWASM\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.JSInterop.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.JSInterop.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/zV-OfJNfNsG404X30Pwkdymdh1KmZpTVEmG-JNFVc-k=.hash",
+      "Source": "\/Users\/nicolassalas\/Documents\/Programming\/VisualStudio\/GameOfLifeWASM\/GameOfLifeWASM\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.JSInterop.WebAssembly.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/nc74gFTgCDDOJtobea0KpDyVT4LFhFIKYndP6H6NUMM=.hash",
+      "Source": "\/Users\/nicolassalas\/Documents\/Programming\/VisualStudio\/GameOfLifeWASM\/GameOfLifeWASM\/obj\/Release\/netstandard2.1\/blazor\/linker\/mscorlib.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/mscorlib.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/RNhwfhfdu6NgkSTaHDyuEya6zuNEB4o0TIhiYoXwf5Q=.hash",
+      "Source": "\/Users\/nicolassalas\/Documents\/Programming\/VisualStudio\/GameOfLifeWASM\/GameOfLifeWASM\/obj\/Release\/netstandard2.1\/blazor\/linker\/System.Core.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/System.Core.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/BgVP6kB6PfIHWgcrusstHMIFy5FVLJ-NtDKgK-x5S30=.hash",
+      "Source": "\/Users\/nicolassalas\/Documents\/Programming\/VisualStudio\/GameOfLifeWASM\/GameOfLifeWASM\/obj\/Release\/netstandard2.1\/blazor\/linker\/System.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/System.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/itCQPByDptwzBNZTV0A8lfztnEBfwYQh7Vql9aS06QM=.hash",
+      "Source": "\/Users\/nicolassalas\/Documents\/Programming\/VisualStudio\/GameOfLifeWASM\/GameOfLifeWASM\/obj\/Release\/netstandard2.1\/blazor\/linker\/System.Net.Http.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/System.Net.Http.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/_bYKHEr9_ffeeROOHcK-hC0TOxEKj3iyQi3177ZQLzA=.hash",
+      "Source": "\/Users\/nicolassalas\/Documents\/Programming\/VisualStudio\/GameOfLifeWASM\/GameOfLifeWASM\/obj\/Release\/netstandard2.1\/blazor\/linker\/System.Net.Http.WebAssemblyHttpHandler.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/System.Net.Http.WebAssemblyHttpHandler.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/jLzOQWPGiDaObPJQkElJupscn442HUxrkoBqtkOymj0=.hash",
+      "Source": "\/Users\/nicolassalas\/Documents\/Programming\/VisualStudio\/GameOfLifeWASM\/GameOfLifeWASM\/obj\/Release\/netstandard2.1\/blazor\/linker\/System.Runtime.CompilerServices.Unsafe.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/System.Runtime.CompilerServices.Unsafe.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/ugOUnMx5PZ7AP2S8vpgUrp2ICp3QCDNAqa7HrX0vcGo=.hash",
+      "Source": "\/Users\/nicolassalas\/Documents\/Programming\/VisualStudio\/GameOfLifeWASM\/GameOfLifeWASM\/obj\/Release\/netstandard2.1\/blazor\/linker\/System.Text.Encodings.Web.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/System.Text.Encodings.Web.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/OlnFSFF0_oItj4X8kqBN_Ty3-47jUk-VXoLOF6slo0w=.hash",
+      "Source": "\/Users\/nicolassalas\/Documents\/Programming\/VisualStudio\/GameOfLifeWASM\/GameOfLifeWASM\/obj\/Release\/netstandard2.1\/blazor\/linker\/System.Text.Json.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/System.Text.Json.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/1ipXLUjTskkN-_pB45ECr0LfyPWf868lNuUY9dNXMaM=.hash",
+      "Source": "\/Users\/nicolassalas\/Documents\/Programming\/VisualStudio\/GameOfLifeWASM\/GameOfLifeWASM\/obj\/Release\/netstandard2.1\/blazor\/linker\/WebAssembly.Bindings.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/WebAssembly.Bindings.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/mPoqx7XczFHBWk3gRNn0hc9ekG1OvkKY4XiKRY5Mj5U=.hash",
+      "Source": "\/Users\/nicolassalas\/.nuget\/packages\/microsoft.aspnetcore.components.webassembly.runtime\/3.2.0\/tools\/dotnetwasm\/wasm\/dotnet.3.2.0.js",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/wasm\/dotnet.3.2.0.js.gz"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/3S0qzYaBEKOBXarzVLNzNAFXlwJr6nI3lFlYUpQTPH8=.hash",
+      "Source": "\/Users\/nicolassalas\/.nuget\/packages\/microsoft.aspnetcore.components.webassembly.runtime\/3.2.0\/tools\/dotnetwasm\/wasm\/dotnet.timezones.dat",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/wasm\/dotnet.timezones.dat.gz"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/UC-3Rm1NkdNdlIrzYARo_dO-HDlS5mhPxo0IQv7kma8=.hash",
+      "Source": "\/Users\/nicolassalas\/.nuget\/packages\/microsoft.aspnetcore.components.webassembly.runtime\/3.2.0\/tools\/dotnetwasm\/wasm\/dotnet.wasm",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/wasm\/dotnet.wasm.gz"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/SPHS1EAPAcMFN4TEIUYl3FWtoCQTsNJch0XVGgok1eE=.hash",
+      "Source": "\/Users\/nicolassalas\/.nuget\/packages\/microsoft.aspnetcore.components.webassembly.build\/3.2.1\/tools\/blazor\/blazor.webassembly.js",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/blazor.webassembly.js.gz"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/sifdRQObrTs5iASVGHPSAi_qUakwFXTfwTJGY7pwXPE=.hash",
+      "Source": "\/Users\/nicolassalas\/Documents\/Programming\/VisualStudio\/GameOfLifeWASM\/GameOfLifeWASM\/obj\/Release\/netstandard2.1\/blazor\/blazor.boot.json",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/blazor.boot.json.gz"
+    }
+  ]
+}
